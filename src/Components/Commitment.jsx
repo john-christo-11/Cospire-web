@@ -2,6 +2,9 @@ import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import logo2 from "../assets/logo2.png";
 import logo3 from "../assets/logo3.png";
+import commit1 from "../assets/commit1.jpg";
+import commit2 from "../assets/commit2.jpg";
+import commit3 from "../assets/commit3.jpg";
 
 const logos = [
   logo2,
@@ -84,7 +87,7 @@ const Commitment = () => {
             whileHover={{ scale: 1.1, rotate: 5 }}
             transition={{ duration: 0.3 }}
           >
-            <img src="src/assets/commit1.jpg" alt="Logo 1" className="lg:w-60 pt-2 lg:h-60 w-15 h-15" />
+            <img src={commit1} alt="Logo 1" className="lg:w-60 pt-2 lg:h-60 w-15 h-15" />
             <p className="lg:text-2xl text-sm font-heading mb-4 text-gray-800 font-semibold">Quality Commitment</p>
           </motion.div>
           <motion.div
@@ -92,7 +95,7 @@ const Commitment = () => {
             whileHover={{ scale: 1.1, rotate: -5 }}
             transition={{ duration: 0.3 }}
           >
-            <img src="src/assets/commit2.jpg" alt="Logo 2" className="lg:w-60 lg:h-60 w-15 h-15 " />
+            <img src={commit2} alt="Logo 2" className="lg:w-60 lg:h-60 w-15 h-15 " />
             <p className="lg:text-2xl text-sm font-heading text-gray-800 font-semibold">Innovation & Excellence</p>
           </motion.div>
           <motion.div
@@ -100,7 +103,7 @@ const Commitment = () => {
             whileHover={{ scale: 1.1, rotate: 5 }}
             transition={{ duration: 0.3 }}
           >
-            <img src="src/assets/commit3.jpg" alt="Logo 3" className="lg:w-60 lg:h-60 w-15 h-15" />
+            <img src={commit3} alt="Logo 3" className="lg:w-60 lg:h-60 w-15 h-15" />
             <p className="lg:text-2xl text-sm font-heading text-gray-800 font-semibold">Customer Satisfaction</p>
           </motion.div>
         </motion.div>
