@@ -62,8 +62,7 @@ const Commitment = () => {
         viewport={{ once: false, amount: 0.3 }}
       >
         We are committed to delivering high-quality solutions that drive innovation and excellence.
-        Our mission is to provide outstanding services tailored to our customers' needs, ensuring
-        satisfaction and success in every project we undertake.
+        Our mission is to provide outstanding services tailored to our customers' needs.
       </motion.p>
 
       {/* Grid Container with scroll-triggered fade-in */}
