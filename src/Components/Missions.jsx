@@ -60,7 +60,7 @@ function Missions() {
         >
           Our mission is to drive innovation, empower businesses, and create meaningful 
           digital experiences. We believe in leveraging technology to solve real-world problems, 
-          fostering collaboration, and making a lasting impact.
+          fostering collaboration.
         </motion.p>
 
         
